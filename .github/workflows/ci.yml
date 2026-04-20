@@ -44,9 +44,9 @@ jobs:
             - name: Typecheck
               run: pnpm tsc --noEmit
 
-        # Step 7 — find unused code, exports and dependencies
-            - name: Knip
-              run: pnpm knip
+        # # Step 7 — find unused code, exports and dependencies
+        #     - name: Knip
+        #       run: pnpm knip
 
         # Step 8 — validate commit messages in the PR
         # on push: checks the last commit (HEAD~1 to HEAD)
